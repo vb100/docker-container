@@ -5,7 +5,7 @@ This Readme file provides the main key points about the what the Dockers are and
 ### What are Containers?
 <p>A group of processes run on isolation.
 <ul>
-  <li>All processes must be able to run on the sharded kernel.</li>
+  <li>All processes must be able to run on the shared kernel.</li>
 </ul></p>
 
 <p>Each container has its own set of <b>namespaces</b> (<i>isolated view</i>):
