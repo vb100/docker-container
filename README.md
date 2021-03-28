@@ -23,7 +23,7 @@ This Readme file provides the main key points about the what the Dockers are and
 ### VM (Virtual Machine) vs. Containers
 <p>
 <ul>
-  <li>Each Vm has its own OS.</li>
+  <li>Each VM has its own OS.</li>
   <li>VM is very heavy and slow to start.</li>
   <li>Containers shares the same base Kernel.</li>
   <li>Linux namespaces, not include the full OS.</li>
@@ -31,3 +31,9 @@ This Readme file provides the main key points about the what the Dockers are and
 </ul>
 Containers do not replace VMs. It is not one over other. Containers can work on the top of a VM. Containers often re-couple the infrastructure of an existing VM.
 </p>
+
+### What is Docker?
+Dockers enables containers to be used by the masses. At its core, Docker is tooling to manage containers:
+<li>
+  <ul>Simplified existing technology to enable it for the masses.</ul>
+</li>
