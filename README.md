@@ -36,3 +36,5 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
 Dockers enables containers to be used by the masses. At its core, Docker is tooling to manage containers:
 <li>Simplified existing technology to enable it for the masses.
 </li>
+Enable developers to use containers for their applications:
+<li>Package dependencies with containers: <i>build once, run anywhere.</i></li>
