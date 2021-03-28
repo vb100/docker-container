@@ -49,7 +49,7 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
   <li>Lightweight and fast.</li>
   <li>Better resource utilization</li>
   <ol type="A">
-    <li>Can fit far more containers than VMs into a host. You can run many containers on the same infrastructure and save a lot of money.</li>
+    <li>Can fit far more containers than VMs into a host. You can run many containers on the same infrastructure without conflicts and save a lot of money.</li>
   </ol>
   <li>Standard developer to operations interface.</li>
   <li>Ecosystem and tooling.</li>
