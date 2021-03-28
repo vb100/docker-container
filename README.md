@@ -62,3 +62,11 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
     <li><a href="http://play-with-docker.com/">Play-with-Docker</a></li>
 </ul>
 </p>
+
+## Hands-on practice
+## Run first container
+
+<p>Use the Docker CLI to run your first container.</p>
+<ol type="A">
+  <li>Open a terminal on your local computer and run this command: <code>docker container run -t ubuntu top</code></li>
+</ol>
