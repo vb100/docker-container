@@ -17,4 +17,5 @@ This Readme file provides the main key points about the what the Dockers are and
   <li><code>NET</code> - network devices, stacks, ports.</li>
   <li><code>IPC</code> - inter-process communications, message queues.</li>
 </ul>
+<code>cgroups</code> controls limits and monitoring of resources.
 </p>
