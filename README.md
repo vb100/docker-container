@@ -68,5 +68,5 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
 
 <p>Use the Docker CLI to run your first container.</p>
 <ol type="A">
-  <li>Open a terminal on your local computer and run this command: <code>docker container run -t ubuntu top</code><br>The docker run command first starts a <code>docker pull</code> to download the Ubuntu image onto your host. After it is downloaded, it will start the container.</li>
+  <li>Open a terminal on your local computer and run this command: <code>docker container run -t ubuntu top</code><br>The docker run command first starts a <code>docker pull</code> to download the Ubuntu image onto your host. After it is downloaded, it will start the container.</br><code>top</code> is a Linux utility that prints the processes on a system and orders them by resource consumption. Notice that there is only a single process in this output: it is the top process itself. You don't see other processes from the host in this list because of the PID namespace isolation.</li>
 </ol>
