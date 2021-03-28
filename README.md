@@ -19,3 +19,15 @@ This Readme file provides the main key points about the what the Dockers are and
 </ul>
 <code>cgroups</code> controls limits and monitoring of resources.
 </p>
+
+### VM (Virtual Machine) vs. Containers
+<p>
+<ul>
+  <li>Each Vm has its own OS.</li>
+  <li>VM is very heavy and slow to start.</li>
+  <li>Containers shares the same base Kernel.</li>
+  <li>Linux namespaces, not include the full OS.</li>
+  <li>Quick to start due its lightweight feature.</li>
+</ul>
+Containers do not replace VMs. It is not one over other. Containers can work on the top of a VM. Containers often re-couple the infrastructure of an existing VM.
+</p>
