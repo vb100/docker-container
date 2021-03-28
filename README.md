@@ -68,5 +68,5 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
 
 <p>Use the Docker CLI to run your first container.</p>
 <ol type="A">
-  <li>Open a terminal on your local computer and run this command: <code>docker container run -t ubuntu top</code></li>
+  <li>Open a terminal on your local computer and run this command: <code>docker container run -t ubuntu top</code><br>The docker run command first starts a <code>docker pull</code> to download the Ubuntu image onto your host. After it is downloaded, it will start the container.</li>
 </ol>
