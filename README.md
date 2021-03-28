@@ -44,7 +44,7 @@ Enable developers to use containers for their applications:
   <li>No more <i>Works on my machine.</i></li>
   <li>Lightweight and fast.</li>
   <li>Better resource utilization</li>
-  <ol>
+  <ol type="I">
     <li>Can fit far more containers than VMs into a host.</li>
   </ol>
 </ul>
