@@ -64,9 +64,9 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
 </p>
 
 ## Hands-on practice
-## Run first container
+### Run first container
 
 <p>Use the Docker CLI to run your first container.</p>
 <ol type="A">
-  <li>Open a terminal on your local computer and run this command: <code>docker container run -t ubuntu top</code><br>The docker run command first starts a <code>docker pull</code> to download the Ubuntu image onto your host. After it is downloaded, it will start the container.</br><code>top</code> is a Linux utility that prints the processes on a system and orders them by resource consumption. Notice that there is only a single process in this output: it is the top process itself. You don't see other processes from the host in this list because of the PID namespace isolation.</li>
+  <li>Open a terminal on your local computer and run this command: <code>docker container run -t ubuntu top</code><br>The docker run command first starts a <code>docker pull</code> to download the Ubuntu image onto your host. After it is downloaded, it will start the container.</br><code>top</code> is a Linux utility that prints the processes on a system and orders them by resource consumption. Notice that there is only a single process in this output: it is the top process itself. You don't see other processes from the host in this list because of the PID namespace isolation.</li><br>Containers use Linux namespaces to provide isolation of system resources from other containers or the host. The <code>PID</code> namespace provides isolation for process IDs. If you run <code>top</code> while inside the container, you will notice that it shows the processes within the <code>PID</code> namespace of the container, which is much different than what you can see if you ran <code>top</code> on the host.
 </ol>
