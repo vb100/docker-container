@@ -57,8 +57,8 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
 
 <p>
   <b>Useful links:</b>
-  <ul>
-    <li>F<a href="https://docs.docker.com/">Full Docker Docummentation (Official)</a></li>
-    <li>F<a href="http://play-with-docker.com/">Play-with-Docker</a></li>
+  <ul type="square">
+    <li><a href="https://docs.docker.com/">Full Docker Docummentation (Official)</a></li>
+    <li><a href="http://play-with-docker.com/">Play-with-Docker</a></li>
 </ul>
 </p>
