@@ -40,11 +40,11 @@ Enable developers to use containers for their applications:
 <li>Package dependencies with containers: <i>build once, run anywhere.</i></li>
 
 ### Why Containers are appealing to Users?
-<ul>
+<ul type="square">
   <li>No more <i>Works on my machine.</i></li>
   <li>Lightweight and fast.</li>
   <li>Better resource utilization</li>
-  <ol type="I">
+  <ol type="A">
     <li>Can fit far more containers than VMs into a host.</li>
   </ol>
 </ul>
