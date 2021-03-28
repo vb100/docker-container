@@ -4,12 +4,12 @@ This Readme file provides the main key points about the what the Dockers are and
 
 ### What are Containers?
 <p>A group of processes run on isolation.
-<ul>
+<ul type="square">
   <li>All processes must be able to run on the shared kernel.</li>
 </ul></p>
 
 <p>Each container has its own set of <b>namespaces</b> (<i>isolated view</i>):
-<ul>
+<ul type="square">
   <li><code>PID</code> - process IDs.</li>
   <li><code>USER</code> - user and group IDs.</li>
   <li><code>UTS</code> - hostname and domain name.</li>
@@ -22,7 +22,7 @@ This Readme file provides the main key points about the what the Dockers are and
 
 ### VM (Virtual Machine) vs. Containers
 <p>
-<ul>
+<ul type="square">
   <li>Each VM has its own OS.</li>
   <li>VM is very heavy and slow to start.</li>
   <li>Containers shares the same base Kernel.</li>
@@ -33,11 +33,13 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
 </p>
 
 ### What is Docker?
-Dockers enables containers to be used by the masses. At its core, Docker is tooling to manage containers:
-<li>Simplified existing technology to enable it for the masses.
-</li>
-Enable developers to use containers for their applications:
-<li>Package dependencies with containers: <i>build once, run anywhere.</i></li>
+<ul type="square">
+<li>Dockers enables containers to be used by the masses. At its core, Docker is tooling to manage containers:</li>
+<ol type="A">Simplified existing technology to enable it for the masses.
+</ol>
+  <li>Enable developers to use containers for their applications:</li>
+<ol>Package dependencies with containers: <i>build once, run anywhere.</i></ol>
+</ul>
 
 ### Why Containers are appealing to Users?
 <ul type="square">
