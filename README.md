@@ -94,4 +94,6 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
 These namespaces provide the isolation for containers that allow them to run together securely and without conflict with other containers running on the same system.
 </p>
 </li>
+<li>Clean up the container running the top processes:
+  <code><ctrl>-c</code></li>
 </ol>
