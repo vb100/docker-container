@@ -72,4 +72,5 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
   <li>Inspect the container: <code>docker container exec</code><br>This command allows you to enter a running container's namespaces with a new process.</li>
   <li>Open a new terminal. To open a new terminal connected to <i>node1</i> by using <a href="http://play-with-docker.com/">Play-with-Docker</a>, click <i>Add New Instance</i> on the left and then ssh from <i>node2</i> into <i>node1</i> by using the IP that is listed by <i>node1</i>.</li>
   <li>In the new terminal, get the ID of the running container that you just created: <code>docker container ls </code></li>
+  <li>Use that container ID to run bash inside that container by using the docker container <code>exec</code> command. Because you are using bash and want to interact with this container from your terminal, use the <code>-it</code> flag to run using interactive mode while allocating a psuedo-terminal:<br><code>$ docker container exec -it b3ad2a23fab3 bash </code><br><code>root@b3ad2a23fab3:/#</code></li>
 </ol>
