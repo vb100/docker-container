@@ -87,7 +87,7 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
     <li><code>NET</code>: Containers have their own network stack.</li>
     <li><code>IPC</code>: Isolated interprocess communication mechanisms such as message queues.</li>
     <li><code>User</code>: Isolated view of users on the system.</li>
-    <li>UTC: Set hostname and domain name per container.</li>
+    <li><code>UTC</code>: Set hostname and domain name per container.</li>
   </ul>
   </p>
   <p>
