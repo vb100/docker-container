@@ -77,7 +77,7 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
   </li>
   <li>From the same terminal, inspect the running processes: <code>ps -ef</code>.<br>You should see only the top process, <code>bash</code> process, and your <code>ps</code> process.</li>
   <li>For comparison, exit the container and run <code>ps -ef</code> or <code>top</code> on the host. These commands will work on Linux or Mac. For Windows, you can inspect the running processes by using <code>tasklist</code>.<br>
-<code>root@b3ad2a23fab3:/# exit<code><br>
+<code>root@b3ad2a23fab3:/# exit</code><br>
   <code>exit</code><br>
   <code>$ ps -ef</code><br>
   <code># Lots of processes!</code><br>
