@@ -76,4 +76,11 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
   <p><b>Tip</b>: <i>This is not the same as using ssh to a separate host or a VM. You don't need an ssh server to connect with a bash process. Remember that containers use kernel-level features to achieve isolation and that containers run on top of the kernel. Your container is just a group of processes running in isolation on the same host, and you can use the command docker container <code>exec</code> to enter that isolation with the bash process. After you run the command docker container <code>exec</code>, the group of processes running in isolation (in other words, the container) includes top and bash.</i></p>
   </li>
   <li>From the same terminal, inspect the running processes: <code>ps -ef</code>.<br>You should see only the top process, <code>bash</code> process, and your <code>ps</code> process.</li>
+  <li>For comparison, exit the container and run <code>ps -ef</code> or <code>top</code> on the host. These commands will work on Linux or Mac. For Windows, you can inspect the running processes by using <code>tasklist</code>.<br>
+<code>root@b3ad2a23fab3:/# exit<code><br>
+  <code>exit</code><br>
+  <code>$ ps -ef</code><br>
+  <code># Lots of processes!</code><br>
+  PID is just one of the Linux namespaces that provides containers with isolation to system resources. Other Linux namespaces include:
+</li>
 </ol>
