@@ -81,6 +81,17 @@ Containers do not replace VMs. It is not one over other. Containers can work on 
   <code>exit</code><br>
   <code>$ ps -ef</code><br>
   <code># Lots of processes!</code><br>
-  PID is just one of the Linux namespaces that provides containers with isolation to system resources. Other Linux namespaces include:
+  <p>PID is just one of the Linux namespaces that provides containers with isolation to system resources. Other Linux namespaces include:
+  <ul>
+    <li><code>MNT</code>: Mount and unmount directories without affecting other namespaces.</li>
+    <li><code>NET</code>: Containers have their own network stack.</li>
+    <li><code>IPC</code>: Isolated interprocess communication mechanisms such as message queues.</li>
+    <li><code>User</code>: Isolated view of users on the system.</li>
+    <li>UTC: Set hostname and domain name per container.</li>
+  </ul>
+  </p>
+  <p>
+These namespaces provide the isolation for containers that allow them to run together securely and without conflict with other containers running on the same system.
+</p>
 </li>
 </ol>
