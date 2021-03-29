@@ -95,5 +95,5 @@ These namespaces provide the isolation for containers that allow them to run tog
 </p>
 </li>
 <li>Clean up the container running the top processes:
-  <code><ctrl>-c</code></li>
+  <code> < ctrl>-c</code></li>
 </ol>
