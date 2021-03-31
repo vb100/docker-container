@@ -123,5 +123,6 @@ ENTRYPOINT /myapp
 ```
 
 ~~~
-Tildes are OK too.
+cat Dockerfile
+FROM ubuntu
 ~~~
