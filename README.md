@@ -99,4 +99,4 @@ These namespaces provide the isolation for containers that allow them to run tog
 </ol>
 
 ### Docker Images
-<p><b>What is the Docker Image?</b><ul type='square'><li>TAR file containing a container's <b>filesystem</b> and <b>metadata</b></li></ul></p>
+<p><b>What is the Docker Image?</b><ul type='square'><li>TAR file containing a container's <b>filesystem</b> and <b>metadata</b>.</li></ul></p>
