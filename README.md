@@ -117,7 +117,7 @@ Example of <u>Ubuntu</u> Image.
 ~~~
 cat Dockerfile
 FROM ubuntu
-ADD myapp /
+ADD myapp
 EXPOSE 80
 ENTRYPOINT /myapp
 ~~~
