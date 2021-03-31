@@ -145,4 +145,6 @@ Each layer is built on previous layer before. If you change only the last layer 
 
 </ul>
 
+<img src="docker_01.png" alt="Docker Containers Layers" width="500">
+
 </p>
