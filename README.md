@@ -121,3 +121,7 @@ ADD myapp /
 EXPOSE 80
 ENTRYPOINT /myapp
 ```
+
+~~~
+Tildes are OK too.
+~~~
