@@ -100,3 +100,4 @@ These namespaces provide the isolation for containers that allow them to run tog
 
 ### Docker Images
 <p><b>What is the Docker Image?</b><ul type='square'><li>TAR file containing a container's <b>filesystem</b> and <b>metadata</b>.</li></ul></p>
+<p><b>The reason why we create Docker Images is?</b><ul type='square'><li>For <b>sharing</b> and <b>re-distribution</b>.</b>.</li></ul></p>
