@@ -101,4 +101,4 @@ These namespaces provide the isolation for containers that allow them to run tog
 ### Docker Images
 <p><b>What is the Docker Image?</b><ul type='square'><li>TAR file containing a container's <b>filesystem</b> and <b>metadata</b>.</li></ul></p>
 <p><b>The reason why we create Docker Images is?</b><ul type='square'><li>For <b>sharing</b> and <b>re-distribution</b>. Many containers can be created from a single Image. Images can be downloaded from the <a href="https://hub.docker.com/">Docker Hub</a> and then create a Docker container.</li>
-  <li>To share Images we can use <b>Docker Registry</b>.<ol type="A"><li>Push and Pull Images from Registry</li></ol></li></ul></p>
+  <li>To share Images we can use <b>Docker Registry</b>.<ul><li>Push and Pull Images from Registry</li></ul></li></ul></p>
