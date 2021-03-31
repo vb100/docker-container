@@ -125,6 +125,7 @@ ENTRYPOINT /myapp
 
 ### Secret Sauce: Docker Image layers
 | This R/W layer | Container Level |
+| ---      |  ------  |----------|
 | Image Layer 4  | Image Layers (R/O) |
 | Image Layer 3  | Image Layers (R/O) |
 | Image Layer 2  | Image Layers (R/O) |
