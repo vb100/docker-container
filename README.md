@@ -108,6 +108,7 @@ These namespaces provide the isolation for containers that allow them to run tog
 <ol type="A">Create a <i>Dockerfile</i>:
   <ul>
     <li>List of instructions for how to construct the container.</li>
+    <li><code>docker build -f Dockerfile</code></li>
   </ul>
 </ol>
 </p>
