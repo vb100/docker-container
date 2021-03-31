@@ -104,3 +104,10 @@ These namespaces provide the isolation for containers that allow them to run tog
   <li>To share Images we can use <b>Docker Registry</b>.<ul><li>Push and Pull Images from Registry</li><li>Default Registry: <b>Docker Hub:</b><ul><li>Public and free for public images</li><li>Many pre-packaged images available.</li></ul><li>Private Registry:</li><ul><li>Self-host or cloud prover options.</li></ul></li></ul></li></ul></p>
   
 ### Creating a Docker Image - with Docker build
+<p>
+<ol type="A">Create a <i>Dockerfile</i>:
+  <ul>
+    <li>List of instructions for how to construct the container.</li>
+  </ul>
+</ol>
+</p>
