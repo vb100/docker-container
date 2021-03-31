@@ -97,3 +97,6 @@ These namespaces provide the isolation for containers that allow them to run tog
 <li>Clean up the container running the top processes:
   <code> < ctrl>-c</code></li>
 </ol>
+
+### Docker Images
+<p>b>What is the Docker Image?</b><ul type='square'><li>TAR file containing a container's <u>filesystem</u> and <u>metadata</u></li></ul></p>
