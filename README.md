@@ -151,10 +151,10 @@ Each layer is built on previous layer before. If you change only the last layer 
   <li>Union File System
       <ul>
       <li>Merge image layers into single file system for each container.</li>
-    </ol></li>  
+    </ul></li>  
   <li>Copy-on-Write
     <ul>
       <li>Copies files that are edited up to top writable layer.</li>
-    </ol></li> 
+    </ul></li> 
 </ul>
 </p>
