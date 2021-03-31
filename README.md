@@ -149,11 +149,11 @@ Each layer is built on previous layer before. If you change only the last layer 
 
 <ul type="square">
   <li>Union File System
-      <ol>
+      <ul>
       <li>Merge image layers into single file system for each container.</li>
     </ol></li>  
   <li>Copy-on-Write
-    <ol>
+    <ul>
       <li>Copies files that are edited up to top writable layer.</li>
     </ol></li> 
 </ul>
