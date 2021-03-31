@@ -117,5 +117,4 @@ Example of <u>Ubuntu</u> Image.
 ~~~
 cat Dockerfile
 FROM ubuntu
-ADD myapp
 ~~~
