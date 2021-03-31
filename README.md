@@ -121,6 +121,8 @@ ADD myapp /
 EXPOSE 80
 ENTRYPOINT /myapp
 ~~~
+
+This example code above correspond to each Image Layer in the Docker Image.
 </p>
 
 ### Secret Sauce: Docker Image layers
