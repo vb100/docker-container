@@ -135,4 +135,4 @@ This example code above correspond to each Image Layer in the Docker Image.
 | Image Layer 1  | Image Layers (R/O) |
 | Ubuntu 15.04 | Image Layers (R/O) |
 
-Each layer is built on previous layer before.
+Each layer is built on previous layer before. If you change only the last layer of the Dockerfile, Docker the Docker engine will re-use the first three layers from cache and only re-built the the last layer.
