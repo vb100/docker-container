@@ -115,5 +115,5 @@ These namespaces provide the isolation for containers that allow them to run tog
 </p>
 Example of <u>Ubuntu</u> Image.
 ~~~
-cat Dockerfile
+Tildes are OK too.
 ~~~
