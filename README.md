@@ -116,5 +116,8 @@ These namespaces provide the isolation for containers that allow them to run tog
 Example of <u>Ubuntu</u> Image.
 
 ~~~
-Tildes are OK too.
+FROM ubuntu
+ADD myapp /
+EXPOSE 80
+ENTRYPOINT /myapp
 ~~~
