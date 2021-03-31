@@ -134,3 +134,5 @@ This example code above correspond to each Image Layer in the Docker Image.
 | Image Layer 2  | Image Layers (R/O) |
 | Image Layer 1  | Image Layers (R/O) |
 | Ubuntu 15.04 | Image Layers (R/O) |
+
+Each layer is built on previous layer before.
