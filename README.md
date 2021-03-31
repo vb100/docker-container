@@ -112,7 +112,6 @@ These namespaces provide the isolation for containers that allow them to run tog
   </ul>
 </ol>
 <br>
-</p>
 Example of <u>Ubuntu</u> Image.
 
 ~~~
@@ -121,3 +120,4 @@ ADD myapp /
 EXPOSE 80
 ENTRYPOINT /myapp
 ~~~
+</p>
