@@ -114,15 +114,10 @@ These namespaces provide the isolation for containers that allow them to run tog
 <br>
 </p>
 Example of <u>Ubuntu</u> Image.
-```
+~~~
 cat Dockerfile
 FROM ubuntu
 ADD myapp /
 EXPOSE 80
 ENTRYPOINT /myapp
-```
-
-~~~
-cat Dockerfile
-FROM ubuntu
 ~~~
