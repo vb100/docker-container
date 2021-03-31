@@ -141,6 +141,7 @@ Each layer is built on previous layer before. If you change only the last layer 
 <ul type="square">
   
 <li>Image layers are <b>read only.</b></li>
+<li>Re-use Image layers across multiple instances of the same container.</b></li>
 
 </ul>
 
