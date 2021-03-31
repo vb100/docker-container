@@ -155,7 +155,7 @@ Each layer is built on previous layer before. If you change only the last layer 
   <li>Copy-on-Write
     <ul>
       <li>Copies files that are edited up to top writable layer.</li>
-      <li>Keeping image layers in <i>read only</i> mode.</li>
+      <li>Keeping image layers in <i>read only</i> mode. That is why you can re-use all these layers across images and containers.</li>
     </ul></li> 
 </ul>
 </p>
