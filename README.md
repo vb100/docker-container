@@ -126,7 +126,8 @@ This example code above correspond to each Image Layer in the Docker Image.
 </p>
 
 ### Secret Sauce: Docker Image layers
-
+<p>
+  
 | This R/W layer | Container Level |
 | ---- | ---- |
 | Image Layer 4  | Image Layers (R/O) |
@@ -136,3 +137,11 @@ This example code above correspond to each Image Layer in the Docker Image.
 | Ubuntu 15.04 | Image Layers (R/O) |
 
 Each layer is built on previous layer before. If you change only the last layer of the Dockerfile, Docker the Docker engine will re-use the first three layers from cache and only re-built the the last layer.
+
+<ul type="square">
+  
+<li>Image layers are <b>read only.</b></li>
+
+</ul>
+
+</p>
