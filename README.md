@@ -162,4 +162,7 @@ Each layer is built on previous layer before. If you change only the last layer 
     <li>Faster start-up/download time - base layers are cached.</li>
     </ul></li>
 </ul>
+<b>Docker Image layers</b>
+<p>This is the update. You always update only the last layer of Docker(file). The very first line so tells you <code>Pushed</code>. All other layes are cached and already in Registry</p>
+<img src="docker_02.png" alt="Docker Containers Layers" width="500">
 </p>
