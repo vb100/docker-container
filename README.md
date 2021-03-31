@@ -147,4 +147,14 @@ Each layer is built on previous layer before. If you change only the last layer 
 
 <img src="docker_01.png" alt="Docker Containers Layers" width="500">
 
+<ul type="square">
+  <li>Union File System
+      <ol>
+      <li>Merge image layers into single file system for each container.</li>
+    </ol></li>  
+  <li>Copy-on-Write
+    <ol>
+      <li>Copies files that are edited up to top writable layer.</li>
+    </ol></li> 
+</ul>
 </p>
