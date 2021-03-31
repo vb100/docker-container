@@ -116,5 +116,4 @@ These namespaces provide the isolation for containers that allow them to run tog
 Example of <u>Ubuntu</u> Image.
 ~~~
 cat Dockerfile
-FROM ubuntu
 ~~~
