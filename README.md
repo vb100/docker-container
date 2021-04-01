@@ -187,7 +187,7 @@ Each layer is built on previous layer before. If you change only the last layer 
 <p>
   <b>Container Ecosystem Layers</b>
   
-  | This R/W layer | Container Level | Examples |
+  | Layer # | Purpose | Examples |
 | ---- | ---- | ---- |
 | Layer 6  | Development Workflow Opinionated Containers | <i>OpenShift</i>, <i><DEIS/i> | 
   | Layer 5 | Orchestration/Scheduling Service Model | <i>Kubernetes</i>, <i>Marathon</i> |
