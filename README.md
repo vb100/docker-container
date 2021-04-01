@@ -166,3 +166,18 @@ Each layer is built on previous layer before. If you change only the last layer 
 <p>This is the update. You always update only the last layer of Docker(file). The very first line so tells you <code>Pushed</code>. All other layes are cached and already in Registry</p>
 <img src="docker_02.png" alt="Docker Containers Layers" width="500">
 </p>
+
+### Container Orchestration
+<p>
+What is Container Orchestration?
+  <ul type="square">
+    <li>Cluster Management</li>
+    <li>Scheduling</li>
+    <li>Service Discovery</li>
+    <li>Replication</li>
+    <li>Health Management</li>
+    <li>Declare Desired States
+    <li>Active Reconcilation</li>
+    </li>
+</ul>
+</p>
