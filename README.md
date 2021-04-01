@@ -196,3 +196,13 @@ Each layer is built on previous layer before. If you change only the last layer 
   | Layer 2 | Virtual Infrastructure | <i>VmWare</i>, <i>AWS EC2</i> |
   | Layer 1 | Physical Infrastructure | <i>Raw Compute</i>, <i>Network</i>, <i>Storage</i> |
 </p>
+  
+  <p>
+  <b>Hosted Solutions:</b>
+  <ul type="square">
+    <li>IBM Cloud Container Service</li>
+    <li>Amazon ECS</li>
+    <li>Azure Containers</li>
+    <li>Google Containers Engine</li>
+</ul>
+</p>
