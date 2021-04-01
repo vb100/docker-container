@@ -167,7 +167,7 @@ Each layer is built on previous layer before. If you change only the last layer 
 <img src="docker_02.png" alt="Docker Containers Layers" width="500">
 </p>
 
-### Container Orchestration
+## Container Orchestration
 <p>
 What is Container Orchestration?
   <ul type="square">
@@ -177,7 +177,9 @@ What is Container Orchestration?
     <li>Replication</li>
     <li>Health Management</li>
     <li>Declare Desired States
+    <ul>
     <li>Active Reconcilation</li>
+      </ul>
     </li>
 </ul>
 </p>
