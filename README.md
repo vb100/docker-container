@@ -169,7 +169,7 @@ Each layer is built on previous layer before. If you change only the last layer 
 
 ## Container Orchestration
 <p>
-What is Container Orchestration?
+  <b>What is Container Orchestration?</b>
   <ul type="square">
     <li>Cluster Management</li>
     <li>Scheduling</li>
@@ -182,4 +182,17 @@ What is Container Orchestration?
       </ul>
     </li>
 </ul>
+</p>
+
+<p>
+  <b>Container Ecosystem Layers</b>
+  
+  | This R/W layer | Container Level | Examples |
+| ---- | ---- | ---- |
+| Layer 6  | Development Workflow Opinionated Containers | <i>OpenShift</i>, <i><DEIS/i> | 
+  | Layer 5 | Orchestration/Scheduling Service Model | <i>Kubernetes</i>, <i>Marathon</i> |
+  | Layer 4  | Container Engine) | <i>Docker</i>, <i>Rocket</i> |
+  | Layer 3  | Operating System | <i>Ubuntu</i>, <i>Redhat</i> |
+  | Layer 2 | Virtual Infrastructure | <i>VmWare</i>, <i>AWS EC2</i> |
+  | Layer 1 | Physical Infrastructure | <i>Raw Compute</i>, <i>Network</i>, <i>Storage</i> |
 </p>
